@@ -151,9 +151,14 @@ height: auto;
     font-size: 15px;
     width: 100%;
     padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    
 }
 .row{
     height: 52vh;
+}
+.mobile-gear{
+    display: none;
 }
 
 .q-container {
@@ -273,5 +278,26 @@ height: auto;
     .row{
      display: block !important;
 flex-wrap: nowrap;
+    }
+    .paragraphs p{
+        margin: auto;
+        text-align: center;
+    }
+    .navbar-toggler{
+        margin-right: 4em;
+        margin-bottom: 2em;
+    }
+    .navbar{
+        height: 20vh;
+    }
+    .mobile-gear{
+        display: block;
+        height: 25vh;
+        width: 90vw;
+        margin: auto;
+        padding-top: 1rem;
+    }
+    .why-exist-container{
+        padding-top: 8em;
     }
 }
