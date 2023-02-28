@@ -94,6 +94,7 @@ ul.dropdown-menu[data-bs-popper] {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    /* padding-bottom: 15em; */
 }
 .logo{
     padding-bottom: 1rem;
@@ -106,7 +107,7 @@ ul.dropdown-menu[data-bs-popper] {
     height: 100vh;
     padding: 0;
     margin: 0;
-    padding-top: 3vh;
+    padding-top: 30vh;
 }
 .why-exist-left-image{
 min-width: 10vw;
@@ -306,7 +307,7 @@ flex-wrap: nowrap;
         margin: auto;
         padding-top: 1rem;
     }
-    .why-exist-container{
-        padding-top: 8em;
-    }
+    /* .why-exist-container{
+        padding-top: 30em;
+    } */
 }
