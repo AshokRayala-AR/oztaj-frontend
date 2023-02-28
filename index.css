@@ -1,17 +1,55 @@
+
+@font-face {
+    font-family: 'MontSerrat1';
+    src: url(Fonts/Montserrat-Bold.ttf) format('truetype');
+    font-weight: 12,18,24;
+}
+@font-face {
+    font-family: 'MontSerrat2';
+    src: url(Fonts/Montserrat-Light.ttf) format('truetype');
+    font-weight: 12,18,24;
+}
+@font-face {
+    font-family: 'MontSerrat3';
+    src: url(Fonts/Montserrat-Medium.ttf) format('truetype');
+    font-weight: 12,18,24;
+}
+@font-face {
+    font-family: 'MontSerrat4';
+    src: url(Fonts/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 12,18,24;
+}
+@font-face {
+    font-family: 'MontSerrat5';
+    src: url(Fonts/Montserrat-SemiBold.ttf) format('truetype');
+    font-weight: 12,18,24;
+}
+@font-face {
+    font-family: 'MontSerrat6';
+    src: url(Fonts/Raleway-Bold.ttf) format('truetype');
+    font-weight: 12,18,24;
+}
+    
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: montserrat4 !important ;
+}
 html{
     scroll-behavior: smoth;
+    
 }
 .navbar{
-    width: 71%;
+    width: 76%;
     height: 30vh;
     margin: auto;
     font-size: 12px;
     font-weight: 500;
+    font-family: montserrat5 !important ;
 }
 .container-fluid{
     background-color: rgba(172, 179, 179, .2);
@@ -36,12 +74,13 @@ background-color: rgb(90, 89, 89);
 
 }
 .dropdown .dropdown-menu{
-    background-color: skyblue;
+    background-color: #71c6ee;
     border: none;
     border-radius: 0 0 160px 0;
     font-size: smaller;
     width: 80px;
     overflow-x: hidden;
+    font-family: montserrat6 !important ;
 }
 
 ul.dropdown-menu[data-bs-popper] {
@@ -87,23 +126,26 @@ height: auto;
 }
 .why-exist h1{
     font-size: 4.5em;
-    font-weight: 60;
-    color:skyblue ;
+    /* font-weight: 60; */
+    /* font-size: small; */
+    color: #71c6ee;
     margin: 0;
     padding: 0;
+    font-family: montserrat2 !important ;
 }
 .why-exist h2{
     font-size: 2.5em;
-    font-weight: 400;
+    font-weight: 100;
     margin: 0;
     padding: 0;
+    font-family: montserrat3 !important ;
 }
 .why-exist h2::after{
     content: 'we exist to simplify your complaince services process!';
     display: block;
-    color: skyblue;
+    color: #55b6e2;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .paragraphs p{
     font-size: 15px;
@@ -145,6 +187,9 @@ height: auto;
 	display: block;
 	text-align: center;
 	margin: auto;
+    color: #71c6ee;
+    font-size:2rem;
+    font-family: montserrat4 !important ;
 }
 
 .author {
