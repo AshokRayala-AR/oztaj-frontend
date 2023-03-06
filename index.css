@@ -42,15 +42,35 @@
 
 body {
   font-family: montserrat3 !important ;
-
-  /* z-index: 90 !important; */
-  
+  margin: 0 auto;
 }
 
 html {
   scroll-behavior: smoth;
 }
+.about-us h1,
+.services h1,
+.who-r-v h1,
+.why-exist h1,
+.why h1{
+  font-size: clamp(3rem, 7vw, 4.5rem);
+  color: #71c6ee;
+  font-family: montserrat2 !important ;
+}
 
+.about-us h2,
+.services h2,
+.who-r-v h2,
+.why-exist h2{
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat3 !important ;
+}
+.services-list li{
+  font-size: clamp(.8rem, 5vw, 1rem);
+}
 /* Navbar Properties */
 
 .navbar {
@@ -84,8 +104,8 @@ html {
 .nav-item .nav-link::before {
   content: "";
   display: inline-block;
-  width: .6rem;
-  height: .6rem;
+  width: 0.6rem;
+  height: 0.6rem;
   margin-right: 2px;
   border-radius: 12px 4px 0 4px;
   background-color: rgb(90, 89, 89);
@@ -94,13 +114,12 @@ html {
   background-color: #71c6ee;
   border: none;
   border-radius: 0 0 160px 0;
-  /* font-size: .3rem; */
   max-width: 100%;
   overflow-x: hidden;
   font-family: montserrat6 !important ;
 }
-.dropdown .dropdown-menu li a{
-  font-size: .8rem;
+.dropdown .dropdown-menu li a {
+  font-size: 0.8rem;
 }
 
 ul.dropdown-menu[data-bs-popper] {
@@ -112,11 +131,12 @@ ul.dropdown-menu[data-bs-popper] {
 .logo-container {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  /* min-height: 100vh;  */
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  margin-top: 32vh;
+  /* margin-top: 55vh; */
+  border: 1px solid blue;
 }
 .logo {
   padding-bottom: 1rem;
@@ -205,20 +225,22 @@ ul.dropdown-menu[data-bs-popper] {
   }
 }
 
-.block{
-  min-height: 80vh;
+.block {
+  min-height: 78vh;
+  max-width:1250px ;
+  margin: auto;
 }
+
 
 /* Why we exist content */
 
 .why-exist-container {
   display: flex;
   justify-content: space-between;
-  align-items:flex-start;
-  padding: 0;
-  margin: 0;
+  align-items: flex-start;
+  /* padding: 0;
+  margin: 0; */
   border: 1px solid red;
-  /* max-width: 78%; */
 }
 .why-exist-left-image {
   min-width: 10vw;
@@ -231,19 +253,7 @@ ul.dropdown-menu[data-bs-popper] {
   border-radius: 0 0 0 400px;
   margin-bottom: 7em;
 }
- .why-exist h1, .about-us h1 {
-  font-size: clamp(3rem, 4vw, 4.5rem);
-  color: #71c6ee;
-  font-family: montserrat2 !important ;
-}
 
-.why-exist h2,.about-us h2 {
-  font-size: 2.5rem;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-  font-family: montserrat3 !important ;
-}
 .why-exist h2::after {
   content: "we exist to simplify your complaince services process!";
   display: block;
@@ -270,8 +280,10 @@ ul.dropdown-menu[data-bs-popper] {
 .about-us {
   /* min-height: 100vh; */
   border: 1px solid red;
-  padding: 1em;
-  width: 80%;
+  /* padding: 1em; */
+  /* margin: 0;
+  padding: 0; */
+  /* width: 80%; */
 }
 .about {
   display: flex;
@@ -288,44 +300,51 @@ ul.dropdown-menu[data-bs-popper] {
   content: "Oztaj has been set up by Mandeep Manchanda";
   display: block;
   color: #55b6e2;
-
 }
-.paragraph-container{
+.paragraph-container {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  
 }
-.about-left{
+.about-left {
   width: 25%;
-  color:#55b6e2 ;
+  color: #55b6e2;
 }
-.about-right{
+.about-right {
   width: 70%;
 }
-.services{
+.services {
   /* display: flex; */
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   border: 1px solid red;
   /* text-align: center; */
 }
-.what-services{
+/* .what-services{
   font-size: 2.5rem;
   font-family: montserrat3 !important ;
-} 
-.provide{
+}  */
+.provide {
   color: #55b6e2;
-  font-size:4.5rem ;
-  /* font-weight: 200; */
+  font-size: 4.5rem;
+  font-weight: 200;
   font-family: montserrat2 !important ;
 }
-.privacy-security img{
-  max-width: 78%;
+.privacy-security img {
+  max-width: 100%;
   /* min-height: 80vh; */
+  border: 1px solid red;
 }
-
+.contact-us {
+  border: 1px solid red;
+}
+.who-r-v {
+  border: 1px solid red;
+}
+.why {
+  border: 1px solid red;
+}
 
 /* media queries - Responsive */
 
@@ -391,13 +410,12 @@ ul.dropdown-menu[data-bs-popper] {
     margin: auto;
     padding-top: 1rem;
   }
-  .about-us{
-    width: 100vw;
-  }
-  .paragraph-container{
+
+  .paragraph-container {
     display: block;
   }
-  .about-left,.about-right{
+  .about-left,
+  .about-right {
     width: 100%;
   }
 }
