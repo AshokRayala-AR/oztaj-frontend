@@ -10,6 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    
     <title>Oztaj</title>
   </head>
   <body>
@@ -29,12 +30,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav nav-item-ul justify-content-between">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              <li class="nav-item" id='home'>
+                <a class="nav-link  " aria-current="page" href="#">HOME</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown" id="about-us">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link  dropdown-toggle"
                   href="#"
                   id="navbarDropdownMenuLink"
                   role="button"
@@ -59,16 +60,16 @@
                   <!-- <li><a class="dropdown-item" href="#">HOW?</a></li> -->
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">OUR SERVICES</a>
+              <li class="nav-item" id="our-services">
+                <a class="nav-link " href="#services">OUR SERVICES</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#privacy-security"
+              <li class="nav-item" id="privacy">
+                <a class="nav-link " href="#privacy-security"
                   >PRIVACY&SECURITY</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-us">CONTACT US</a>
+              <li class="nav-item" id="contact-us">
+                <a class="nav-link " href="#contact-us">CONTACT US</a>
               </li>
             </ul>
           </div>
@@ -98,58 +99,65 @@
       <hr class="line-devider" />
 
       <div id="about-us" class="about-us block">
-        <div class="about-span">
-          <h2 class="about">ABOUT <span>US</span></h2>
+        <div class="left-image">
+          <img src="" alt="" />
         </div>
-        <div class="paragraph-container">
-          <div class="about-left">
-            <p class="blue-para">
-              Priar to establishing Oztaj, Mandeep spent over 11 years with
-              Deloitte, with the last six years as a TaxPartner. In Deloitte,
-              Mandeep was instrumental in setting up Deloitte Australia's Global
-              Delivery Center in india. Mandeep led a team of close to 200 tax
-              professionals trained on Australian Accounting Tax concepts along
-              with this, Mandeep also led a team of close to 800 professionals
-              supporting Deloitte Australia across different streams such as
-              Consulting. Audit and Advisory.
-            </p>
+        <div class="about-us-content">
+          <div class="about-span">
+            <h2 class="about">ABOUT <span>US</span></h2>
           </div>
-          <div class="about-right">
-            <p>
-              The practice that Mandeep established and led for the Deloitte
-              helped transform its service delivery process.
-            </p>
-            <p>
-              Mandeep has been a full member of CPA Australia for over 12 years.
-              Mandeep completed Bachelor of Engeneering(B.E) as his undergrad
-              course and has completed Master of Business Administration from
-              LaTrobe University. Melbourne as his post-graduate course.
-            </p>
-            <p>
-              These varied qualifications and experiences have given Mandeep a
-              unique combination of Tax. Business and Technology skills. This
-              has enabled Mandeep to identify opportunities for growth and
-              process improvement.
-            </p>
-            <p>
-              Mandeep carries this experience and is always looking out for ways
-              to refine processes by bringing in technology, process
-              efficiencies and appropriate teams from across the globe.
-            </p>
-            <p>
-              Mandeep lives in Melbourne with his wife and two kids. He is a
-              member of his local tennis club and likes to read fiction novels
-              in his free time. Mandeep is also learing a new language and is
-              working on a novel.
-            </p>
+          <div class="paragraph-container">
+            <div class="about-left">
+              <p class="blue-para">
+                Prior to establishing Oztaj, Mandeep spent over 11 years with
+                Deloitte, with the last six years as a TaxPartner. In Deloitte,
+                Mandeep was instrumental in setting up Deloitte Australia's
+                Global Delivery Center in india. Mandeep led a team of close to
+                200 tax professionals trained on Australian Accounting Tax
+                concepts along with this, Mandeep also led a team of close to
+                800 professionals supporting Deloitte Australia across different
+                streams such as Consulting. Audit and Advisory.
+              </p>
+            </div>
+            <div class="about-right">
+              <p>
+                The practice that Mandeep established and led for the Deloitte
+                helped transform its service delivery process.
+              </p>
+              <p>
+                Mandeep has been a full member of CPA Australia for over 12
+                years. Mandeep completed Bachelor of Engeneering(B.E) as his
+                undergrad course and has completed Master of Business
+                Administration from LaTrobe University. Melbourne as his
+                post-graduate course.
+              </p>
+              <p>
+                These varied qualifications and experiences have given Mandeep a
+                unique combination of Tax. Business and Technology skills. This
+                has enabled Mandeep to identify opportunities for growth and
+                process improvement.
+              </p>
+              <p>
+                Mandeep carries this experience and is always looking out for
+                ways to refine processes by bringing in technology, process
+                efficiencies and appropriate teams from across the globe.
+              </p>
+              <p>
+                Mandeep lives in Melbourne with his wife and two kids. He is a
+                member of his local tennis club and likes to read fiction novels
+                in his free time. Mandeep is also learing a new language and is
+                working on a novel.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <hr class="line-devider" />
       <div id="services" class="services block">
         <div class="services-content">
           <h2 class="what-services">WHAT SERVICES</h2>
           <h1 class="provide">DO WE PROVIDE?</h1>
-          <ul class="serivices-list">
+          <ul class="services-list">
             <li>
               Tax Returns-individuals, Businesses, Trusts and partnerships
             </li>
@@ -168,23 +176,37 @@
           </ul>
         </div>
       </div>
-
+      <hr class="line-devider" />
       <div id="privacy-security" class="privacy-security block">
-        <img src="images/privacy.jpg" alt="privacy and security" />
+        <div class="security-image-container">
+          <img
+            class="security-img"
+            src="images/privacy.jpg"
+            alt="privacy and security"
+          />
+        </div>
       </div>
-
+      <hr class="line-devider" />
       <div id="contact-us" class="contact-us block">
         <div class="contact-us-content">
-          <h2>Let have a conversation</h2>
-          <div>
-            <p>info@oztaj.com.au</p>
-            <p>045 22 69825</p>
+          <div class="conversation-headline">
+            <h2>Let have a conversation</h2>
+          </div>
+          <div class="mail-info">
             <p>
-              if you would like to know how we can assist you and your business.
+              <span> info@oztaj.com.au</span><br />
+              <span> 045 22 69825</span><br />
+              <small>
+                if you would like to<br />
+                know how we can <br />
+                assist you and your <br />
+                business.</small
+              >
             </p>
           </div>
         </div>
       </div>
+      <hr class="line-devider" />
       <div id="who-r-v" class="who-r-v block">
         <div class="content-wrapper">
           <div class="left-content">
@@ -215,10 +237,10 @@
           </div>
         </div>
       </div>
-
+      <hr class="line-devider" />
       <div id="why-exist-container" class="why-exist-container block">
         <div class="why-exist-left-image">
-          <img src="images/left background.jpeg" alt="" />
+          <img class="left-print" src="" alt="" />
         </div>
         <div id="why-exist" class="why-exist">
           <h1>WHY</h1>
@@ -257,11 +279,11 @@
             </div>
           </div>
         </div>
-        <!-- <div class="why-exist-right-image">
-          <img class="gear" src="images/gear.png" alt="mechanism" />
-        </div> -->
+        <div class="why-exist-right-image">
+          <img class="gear" src="" alt="" />
+        </div>
       </div>
-
+      <hr class="line-devider" />
       <div id="why" class="why block">
         <div class="why-content">
           <div class="left-content"></div>
@@ -290,11 +312,12 @@
     </main>
 
     <footer></footer>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="mahender.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
