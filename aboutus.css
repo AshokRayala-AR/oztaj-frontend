@@ -1,0 +1,39 @@
+.about-us {
+    display: flex;
+    padding-top: 20vh;
+  }
+  .about-us .left-image {
+    width: 15%;
+  }
+  .about-us-content {
+    width: 84%;
+  }
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  .about span {
+    font-size: 4.5rem;
+    color: #00abec;
+    margin: 0;
+    padding: 0 0 0 1rem;
+    font-family: montserrat2 !important ;
+  }
+  .about-span::after {
+    content: "Oztaj has been set up by Mandeep Manchanda";
+    display: block;
+    color: #00abec;
+  }
+  .paragraph-container {
+    display: flex;
+    padding: 1.5em 0;
+  }
+  .about-left {
+    width: 25%;
+    padding-right: 1em;
+    color: #00abec;
+  }
+  .about-right {
+    width: 75%;
+  }
+  

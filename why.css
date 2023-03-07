@@ -1,0 +1,17 @@
+.why {
+    display: flex;
+    align-items: center;
+    padding-top: 20vh;
+  }
+  .why-content {
+    width: 78%;
+    display: flex;
+    margin: auto;
+  }
+  .why-content .left-content {
+    width: 48%;
+  }
+  .why-content .right-content {
+    width: 48%;
+  }
+  

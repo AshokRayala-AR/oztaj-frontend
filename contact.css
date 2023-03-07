@@ -1,0 +1,55 @@
+.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+  }
+  .contact-us-content {
+    display: flex;
+    margin: auto;
+    align-items:center;
+    /* justify-content: space-between; */
+    width: 70%;
+    /* position: relative; */
+    /* border: 1px solid red; */
+  }
+  .contact-us-content .conversation-headline {
+    color: #abe1fa;
+    width: 60%;
+  
+    /* border: 1px solid red; */
+    /* text-align:; */
+    /* letter-spacing: 1px; */
+  }
+  .conversation-headline{
+    position: relative;
+  }
+  .conversation-headline h2{
+    position: absolute;
+    right: .4rem;
+    letter-spacing: 1px;
+  }
+  .contact-us-content .mail-info{
+    width: 23vw;
+    height: 35vh;
+    position: relative;
+  /* max-width: 210px; */
+    /* border: 1px solid red; */
+    background-color: #abe1fa;
+    border-radius: 0 100% 0 0;
+    color: black;
+  }
+  .mail-info p{
+    position: absolute;
+    bottom: 0;
+    line-height: 2.1rem;
+    letter-spacing: 1px;
+  padding-left: 2.2rem;
+    /* margin-top: 1.2em; */
+    /* left: 0; */
+    /* right: 0; */
+  }
+  .mail-info p small{
+    line-height: normal;
+  }
+  

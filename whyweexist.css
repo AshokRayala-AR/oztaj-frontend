@@ -1,0 +1,57 @@
+.why-exist-container{
+    display: flex;
+    align-items: center;
+    padding-top: 20vh;
+  }
+  .why-exist-content-wrapper {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* margin: 0;
+    padding: 0; */
+  }
+  .why-exist-left-image {
+    
+    width: 15%;
+    
+  }
+  .why-exist{
+    width: 55%;
+  
+    
+  }
+  .why-exist-right-image {
+    
+    width: 30%;
+    
+  }
+  /* .gear {
+    height: 50vh;
+    border-radius: 0 0 0 400px;
+    margin-bottom: 7em;
+  } */
+  
+  .why-exist h2::after {
+    content: "we exist to simplify your complaince services process!";
+    display: block;
+    color: #00abec;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .row {
+    min-height: 52vh;
+  }
+  .paragraphs{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .paragraphs .left-para{
+    padding-right: 1rem;
+  }
+  .paragraphs p {
+    padding-top: 1rem;
+    /* padding-bottom: 1.5rem; */
+  }
+  .mobile-gear {
+    display: none;
+  }

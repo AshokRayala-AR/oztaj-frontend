@@ -1,0 +1,12 @@
+.privacy-security {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+  }
+  .security-image-container {
+    max-height: 75vh;
+  }
+  .security-img {
+    max-height: 75vh;
+  }
