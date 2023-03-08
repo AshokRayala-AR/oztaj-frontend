@@ -36,4 +36,28 @@
   .about-right {
     width: 75%;
   }
+  @media screen and (max-width: 767px){
+    .about-us .left-image {
+      display: none;
+    }
+    .about-us-content {
+      width: 100%;
+      padding: 0 2rem;
+    }
+
+  }
+  @media screen and (max-width: 530px){
+    .about-us-content {
+      width: 100%;
+    }
+    .paragraph-container {
+      flex-direction: column;
+    }
+    .about-left {
+      width: 100%;
+    }
+    .about-right {
+      width: 100%;
+    }
+  }
   

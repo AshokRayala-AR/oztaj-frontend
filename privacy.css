@@ -8,5 +8,16 @@
     max-height: 75vh;
   }
   .security-img {
-    max-height: 75vh;
+    max-width: 98vw;
+    padding: 0 1.5rem;
+  }
+  @media screen and (max-width: 767px){
+    .security-image-container {
+      max-width: 98vw;
+    }
+  }
+  @media screen and (max-width: 530px){
+    .security-img {
+      max-width: 98vw;
+    }
   }
