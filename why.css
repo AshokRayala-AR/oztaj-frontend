@@ -6,12 +6,32 @@
   .why-content {
     width: 78%;
     display: flex;
+    justify-content: space-between;
     margin: auto;
   }
   .why-content .left-content {
     width: 48%;
   }
-  .why-content .right-content {
+  .why-content .right-content{
     width: 48%;
+  }
+  .why-content .left-content img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 767px){
+    .why-content{
+      flex-direction: column-reverse;
+      width: 100%;
+      /* border: 1px solid red; */
+    }
+    .why-content .left-content {
+      width: 100%;
+      padding: 0 1.5rem;
+    }
+    .why-content .right-content {
+      width: 100%;
+      padding: 0 1.5rem;
+    }
   }
   

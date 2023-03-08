@@ -84,14 +84,14 @@ html {
   width: 100%;
   height: 20vh;
   margin: 0 auto;
-  font-size: 1rem;
-  font-weight: 500;
+  /* font-size: 1rem; */
+  /* font-weight: 500; */
   font-family: montserrat5 !important ;
   position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
-  display: block;
+  /* display: block; */
   z-index: 1000;
   background-color: white;
 }
@@ -308,6 +308,7 @@ ul.dropdown-menu[data-bs-popper] {
   .why-exist .paragraphs .right-para{
     width: 100%;
   }
+  
 }
 @media screen and (max-width: 530px) {
   .quote {
@@ -339,19 +340,8 @@ ul.dropdown-menu[data-bs-popper] {
   .why-exist .paragraphs{
     flex-direction: column;
   }
-  .why{
+  /* .why{
     width: 100vw;
-  }
-.why-content{
-  flex-direction: column;
-  width: 100vw;
-}
-.why-content .left-content {
-  width: 100%;
-  
-}
-.why-content .right-content {
-  width: 100%;
-  
-}
+  } */
+
 }
