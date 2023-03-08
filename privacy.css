@@ -2,10 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20vh;
+    /* padding-top: 20vh; */
   }
   .security-image-container {
-    max-height: 75vh;
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    background-image: url("images/privacy.jpg");
+    background-size: cover;
   }
   .security-img {
     max-width: 98vw;
