@@ -85,19 +85,26 @@ html {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: white;
 }
 .container-fluid {
-  max-width: 80%;
-  background-color: rgba(172, 179, 179, 0.2);
+  max-width: 78%;
+  height: 2rem;
+  background-color: #f1f2f2;
   border-radius: 0 0 23px 23px;
   box-shadow: none;
+  
 }
 .navbar-nav {
   flex: 1;
   margin: auto !important;
   display: flex;
   justify-content: space-between;
+}
+.navbar-collapse{
+align-items: center;
+}
+.nav-item-ul li a{
+  font-size: .9rem;
 }
 .nav-item .nav-link::before {
   content: "";

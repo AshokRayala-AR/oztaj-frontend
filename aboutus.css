@@ -1,63 +1,156 @@
 .about-us {
-    display: flex;
-    padding-top: 20vh;
-  }
+  display: flex;
+  padding-top: 10vh;
+  overflow-x:hidden ;
+}
+.about-us .left-image {
+  width: 15%;
+}
+.about-us-content {
+  width: 84%;
+}
+.about-img-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about {
+  display: flex;
+  align-items: center;
+}
+.about span {
+  font-size: 4.5rem;
+  color: #00abec;
+  margin: 0;
+  padding: 0 0 0 1rem;
+  font-family: montserrat2 !important ;
+}
+.mandeep-img-container {
+  position: relative;
+}
+.about-img-container{
+  width: 100%;
+  justify-content: space-between;
+}
+.about-img-container img {
+  width: 40%;
+  border-radius: 100%;
+}
+.mandeep-img-container .thick-blue-img-div {
+  width: 20%;
+  height: 75;
+  border-radius: 0 100% 0 0;
+  background-color: #55bcec;
+  position: absolute;
+  top: 0;
+  left: 75;
+}
+.mandeep-img-container .light-blue-img-div {
+  width: 20%;
+  height: 75;
+  border-radius: 0 0 100% 0;
+  background-color: #abe1fa;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 75;
+}
+.about-span::after {
+  content: "Oztaj has been set up by Mandeep Manchanda";
+  display: block;
+  color: #00abec;
+}
+.paragraph-container {
+  display: flex;
+  padding: 1.5em 0;
+}
+.about-left {
+  width: 25%;
+  padding-right: 1em;
+  color: #00abec;
+}
+.about-right {
+  width: 75%;
+}
+@media screen and (max-width: 767px) {
   .about-us .left-image {
-    width: 15%;
+    display: none;
   }
   .about-us-content {
-    width: 84%;
+    width: 100%;
+    padding: 0 2rem;
   }
-  .about {
-    display: flex;
-    align-items: center;
+  .about-img-container{
+    padding-top: 10%;
   }
-  .about span {
-    font-size: 4.5rem;
-    color: #00abec;
-    margin: 0;
-    padding: 0 0 0 1rem;
-    font-family: montserrat2 !important ;
+  .about-img-container img {
+    width: 30%;
+    border-radius: 100%;
   }
-  .about-span::after {
-    content: "Oztaj has been set up by Mandeep Manchanda";
-    display: block;
-    color: #00abec;
+  .mandeep-img-container .thick-blue-img-div {
+    width: 16%;
+    height: 50% ;
+    border-radius: 0 100% 0 0;
+    background-color: #55bcec;
+    position: absolute;
+    top: 0;
+    left: 15%;
+  }
+  .mandeep-img-container .light-blue-img-div {
+    width: 16%;
+    height:50% ;
+    border-radius: 0 0 100% 0;
+    background-color: #abe1fa;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15%;
+  }
+
+}
+@media screen and (max-width: 610px) {
+  .about-us-content {
+    width: 100%;
   }
   .paragraph-container {
-    display: flex;
-    padding: 1.5em 0;
+    flex-direction: column;
   }
   .about-left {
-    width: 25%;
-    padding-right: 1em;
-    color: #00abec;
+    width: 100%;
   }
   .about-right {
-    width: 75%;
+    width: 100%;
   }
-  @media screen and (max-width: 767px){
-    .about-us .left-image {
-      display: none;
-    }
-    .about-us-content {
-      width: 100%;
-      padding: 0 2rem;
-    }
-
+  .about-img-container{
+    align-items: flex-start;
   }
-  @media screen and (max-width: 530px){
-    .about-us-content {
-      width: 100%;
-    }
-    .paragraph-container {
-      flex-direction: column;
-    }
-    .about-left {
-      width: 100%;
-    }
-    .about-right {
-      width: 100%;
-    }
+  .about-img-container img {
+    width: 60%;
+    border-radius: 100%;
+    margin-left: 2rem;
   }
-  
+  .mandeep-img-container .thick-blue-img-div {
+    width: 30%;
+    height: 50% ;
+    border-radius: 0 100% 0 0;
+    background-color: #55bcec;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    margin-left: 2rem;
+    
+  }
+  .mandeep-img-container .light-blue-img-div {
+    width: 30%;
+    height:50% ;
+    border-radius: 0 0 100% 0;
+    background-color: #abe1fa;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 30%;
+    margin-left: 2rem;
+    
+  }
+}
