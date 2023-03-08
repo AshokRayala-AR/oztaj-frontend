@@ -222,6 +222,11 @@ ul.dropdown-menu[data-bs-popper] {
   }
 }
 
+/* Override Bootstrap */
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
 
 /* media queries - Responsive */
 
