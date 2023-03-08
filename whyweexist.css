@@ -1,41 +1,76 @@
-.why-exist-container{
-    display: flex;
-    align-items: center;
-    padding-top: 20vh;
-  }
-  .why-exist-content-wrapper {
-    display: flex;
-    align-items: center;
-    width: 100vw;
-  }
+.why-exist-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20vh;
+}
+.why-exist-content-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.why-exist-left-image {
+  width: 15%;
+}
+.why-exist {
+  width: 55%;
+}
+.why-exist-right-image {
+  width: 30%;
+}
+.why-exist h2::after {
+  content: "we exist to simplify your complaince services process!";
+  display: block;
+  color: #00abec;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.row {
+  min-height: 52vh;
+}
+.paragraphs {
+  display: flex;
+}
+.paragraphs .left-para {
+  padding-right: 1rem;
+}
+.paragraphs p {
+  padding-top: 1rem;
+}
+.mobile-gear {
+  display: none;
+}
+@media screen and (max-width: 767px) {
   .why-exist-left-image {
-    width: 15%;
-  }
-  .why-exist{
-    width: 55%; 
-  }
-  .why-exist-right-image {
-    width: 30%;
-  }
-  .why-exist h2::after {
-    content: "we exist to simplify your complaince services process!";
-    display: block;
-    color: #00abec;
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
-  .row {
-    min-height: 52vh;
-  }
-  .paragraphs{
-    display: flex;
-  }
-  .paragraphs .left-para{
-    padding-right: 1rem;
-  }
-  .paragraphs p {
-    padding-top: 1rem;
-  }
-  .mobile-gear {
     display: none;
   }
+  .why-exist-right-image {
+    display: none;
+  }
+  .why-exist {
+    width: 100vw;
+    /* border: 1px solid rgb(221, 38, 38); */
+  }
+  .why-exist .headline-container {
+    width: 100vw;
+    padding: 0 1.5rem;
+  }
+  .why-exist .paragraphs {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100vw;
+    padding: 0 1.5rem;
+  }
+  .why-exist .paragraphs .left-para {
+    width: 100%;
+    padding-right: 2rem;
+  }
+  .why-exist .paragraphs .right-para {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 530px){
+  .why-exist .paragraphs{
+    flex-direction: column;
+  }
+}

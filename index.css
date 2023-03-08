@@ -243,13 +243,6 @@ ul.dropdown-menu[data-bs-popper] {
 
 /* media queries - Responsive */
 
-@media screen and (max-width: 1000px) {
-
-  /* .navbar li a {
-    font-size: 0.8rem;
-  } */
-}
-
 @media screen and (max-width: 767px) {
   .container-fluid{
     background-color: white;
@@ -262,51 +255,6 @@ ul.dropdown-menu[data-bs-popper] {
     left: 1.5rem;
     top: 2rem;
     border: none;
-  }
-  .who-r-v .content-wrapper{
-    width: 100%;
-    margin: 0;
-    padding: 0 1.5rem;
-    /* border: 1px solid red; */
-  }
-  .paras-container .left-content{
-    width: 30%;
-  }
-  .paras-container .right-content{
-    width: 70%;
-  }
-  /* .why-exist-container{
-    width: 100%;
-  } */
-  /* .why-exist-content-wrapper{
-    width: 100%;
-  } */
-  .why-exist-left-image{
-    display: none;
-  }
-  .why-exist-right-image{
-    display: none;
-  }
-  .why-exist{
-    width: 100vw;
-    /* border: 1px solid rgb(221, 38, 38); */
-  }
-  .why-exist .headline-container{
-    width: 100vw;
-    padding: 0 1.5rem;
-  }
-  .why-exist .paragraphs{
-    display: flex;
-    /* flex-direction: column; */
-    width: 100vw;
-    padding: 0 1.5rem;
-  }
-  .why-exist .paragraphs .left-para{
-    width: 100%;
-    padding-right: 2rem;
-  }
-  .why-exist .paragraphs .right-para{
-    width: 100%;
   }
   
 }
@@ -321,27 +269,5 @@ ul.dropdown-menu[data-bs-popper] {
     margin-right: 4em;
     margin-bottom: 3em;
   }
-  .who-r-v .content-wrapper{
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0 1.5rem;
-  }
-  .content-wrapper .paras-container{
-    display: flex;
-    flex-direction: column;
-  }
-  .paras-container .left-content{ 
-    width: 100%;
-  }
-  .paras-container .right-content{
-    width: 100%;
-  }
-  .why-exist .paragraphs{
-    flex-direction: column;
-  }
-  /* .why{
-    width: 100vw;
-  } */
 
 }

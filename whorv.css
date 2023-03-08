@@ -28,7 +28,37 @@
     /* border: 1px solid red; */
   }
   @media screen and (max-width: 767px) {
-    
+    .who-r-v .content-wrapper{
+      width: 100%;
+      margin: 0;
+      padding: 0 1.5rem;
+      /* border: 1px solid red; */
+    }
+    .paras-container .left-content{
+      width: 30%;
+    }
+    .paras-container .right-content{
+      width: 70%;
+    }
+
+    @media screen and (max-width: 530px){
+      .who-r-v .content-wrapper{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 1.5rem;
+      }
+      .content-wrapper .paras-container{
+        display: flex;
+        flex-direction: column;
+      }
+      .paras-container .left-content{ 
+        width: 100%;
+      }
+      .paras-container .right-content{
+        width: 100%;
+      }
+    }
 
   }
   
