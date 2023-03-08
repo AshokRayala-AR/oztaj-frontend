@@ -2,20 +2,32 @@
   display: flex;
   align-items: center;
   padding-top: 20vh;
+  /* width: 100vw; */
 }
 .why-exist-content-wrapper {
   display: flex;
   align-items: center;
-  width: 100vw;
+  justify-content: space-between;
+  /* width: 100%; */
+  /* border: 1px solid red; */
 }
 .why-exist-left-image {
-  width: 15%;
+  width: 20%;
+  /* border: 1px solid red; */
+}
+.tab-mobile-gear{
+  display: none;
 }
 .why-exist {
-  width: 55%;
+  width: 80%;
 }
-.why-exist-right-image {
-  width: 30%;
+.why-exist-right-image{
+  max-width: 50vh;
+  max-height: 50vh;
+}
+.why-exist-right-image img {
+  width: 100%;
+  border-radius: 0 0 0 100% ;
 }
 .why-exist h2::after {
   content: "we exist to simplify your complaince services process!";
@@ -23,9 +35,6 @@
   color: #00abec;
   font-size: 1.1rem;
   font-weight: 400;
-}
-.row {
-  min-height: 52vh;
 }
 .paragraphs {
   display: flex;
@@ -36,27 +45,33 @@
 .paragraphs p {
   padding-top: 1rem;
 }
-.mobile-gear {
-  display: none;
-}
 @media screen and (max-width: 767px) {
+  .why-exist {
+    width: 100%;
+    padding: 0 1.5rem;
+
+  }
   .why-exist-left-image {
     display: none;
   }
   .why-exist-right-image {
     display: none;
   }
-  .why-exist {
-    width: 100vw;
-    /* border: 1px solid rgb(221, 38, 38); */
-  }
   .why-exist .headline-container {
-    width: 100vw;
+    width: 100%;
+    
     padding: 0 1.5rem;
   }
+  .tab-mobile-gear{
+    display: block;
+    height: 40vh;
+    max-width: 100vw;
+    padding: 0 1.5rem;
+    background-image: url('images/gear.png');
+  }
+  
   .why-exist .paragraphs {
     display: flex;
-    /* flex-direction: column; */
     width: 100vw;
     padding: 0 1.5rem;
   }
