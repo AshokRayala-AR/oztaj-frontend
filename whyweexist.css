@@ -1,7 +1,7 @@
 .why-exist-container {
   display: flex;
   align-items: center;
-  padding-top: 20vh;
+  /* padding-top: 20vh; */
   /* width: 100vw; */
 }
 .why-exist-content-wrapper {

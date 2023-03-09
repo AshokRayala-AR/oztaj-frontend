@@ -50,7 +50,7 @@ html {
 }
 
 .block {
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .about-us h1,
@@ -263,7 +263,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .container-fluid {
-    background-color: white;
+background-color: transparent;
   }
   .navbar-collapse {
     padding-left: 2rem;
