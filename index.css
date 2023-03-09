@@ -280,6 +280,11 @@ background-color: transparent;
     top: 2rem;
     border: none;
   }
+  .navbar-collapse {
+    background-color: white;
+    box-shadow: 0 0 5px -2px #111;
+    border-radius: 2px;
+  }
 }
 @media screen and (max-width: 530px) {
   .quote {
@@ -297,11 +302,5 @@ background-color: transparent;
 @media screen and (max-width: 480px) {
   .home-arc {
     display: none;
-  }
-
-  .navbar-collapse {
-    background-color: white;
-    box-shadow: 0 0 5px -2px #111;
-    border-radius: 2px;
   }
 }
