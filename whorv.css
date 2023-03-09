@@ -6,17 +6,18 @@
   .who-r-v .content-wrapper {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     margin-left: 15%;
-    /* border: 1px solid red; */
+    
   }
   .content-wrapper .paras-container{
     display: flex;
     align-items: flex-start;
+    width: 70%;
   }
   .who-r-v .left-content {
     width: 30%;
-    /* border: 1px solid red; */
+    
   }
   .who-r-v .blue-paragraph{
     padding:1em 1em 0 0;
@@ -25,14 +26,15 @@
   .who-r-v .right-content {
     width: 64%;
     padding:1em 1em 0 0;
-    /* border: 1px solid red; */
+    
   }
+
   @media screen and (max-width: 767px) {
     .who-r-v .content-wrapper{
       width: 100%;
       margin: 0;
       padding: 0 1.5rem;
-      /* border: 1px solid red; */
+
     }
     .paras-container .left-content{
       width: 30%;
