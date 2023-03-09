@@ -100,27 +100,27 @@
     padding: 0 2rem;
   }
   .about-img-container img {
-    width: 30%;
+    width: 50%;
     border-radius: 100%;
   }
   .nested-img-div .thick-blue-img-div {
-    width: 16%;
+    width: 25%;
     height: 50% ;
     border-radius: 0 100% 0 0;
     background-color: #55bcec;
     position: absolute;
     top: 0;
-    left: 85%;
+    left: 75%;
   }
   .nested-img-div .light-blue-img-div {
-    width: 16%;
+    width: 25%;
     height:50% ;
     border-radius: 0 0 100% 0;
     background-color: #abe1fa;
     position: absolute;
     right: 0;
     bottom: 0;
-    left: 85%;
+    left: 75%;
   }
 
 }
