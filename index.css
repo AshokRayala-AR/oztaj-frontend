@@ -265,12 +265,6 @@ main {
   padding: 0.25rem 0.6rem !important;
 }
 
-.navbar-collapse {
-  background-color: white;
-  box-shadow: 0 0 5px -2px #111;
-  border-radius: 2px;
-}
-
 /* media queries - Responsive */
 
 @media screen and (max-width: 767px) {
@@ -303,5 +297,11 @@ background-color: transparent;
 @media screen and (max-width: 480px) {
   .home-arc {
     display: none;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    box-shadow: 0 0 5px -2px #111;
+    border-radius: 2px;
   }
 }
