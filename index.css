@@ -155,9 +155,7 @@ ul.dropdown-menu[data-bs-popper] {
 
 /* scrolling quotation properties */
 .q-container {
-  display: flex;
   position: relative;
-  flex-direction: flex-row;
   height: 13vh;
   width: 100vw;
   text-align: center;
@@ -165,16 +163,16 @@ ul.dropdown-menu[data-bs-popper] {
 }
 
 .quote_container {
+  position:absolute;
   display: block;
+  visibility: hidden;
   margin: auto;
   min-width: 100%;
   overflow: hidden;
-  position: relative;
-  left: 0vw;
-  animation-name: carrousel;
-  animation-duration: 9s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+}
+
+.quote_container.display {
+  visibility: visible !important;
 }
 
 .quote_container:last-of-type {
