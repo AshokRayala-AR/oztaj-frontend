@@ -20,10 +20,19 @@
 .why-exist-right-image{
   max-width: 50vh;
   max-height: 50vh;
+  position: relative;
 }
 .why-exist-right-image img {
   width: 100%;
   border-radius: 0 0 0 100% ;
+}
+.why-exist-right-image .dark-blue-div{
+  min-width: 25%;
+  min-height:25%;
+  background-color: #60c5ec;
+  position: absolute;
+  top: 75%;
+  border-radius: 0 100% 0 0;
 }
 .why-exist h2::after {
   content: "we exist to simplify your complaince services process!";
@@ -34,6 +43,7 @@
 }
 .paragraphs {
   display: flex;
+  padding-right: 2rem;
 }
 .paragraphs .left-para {
   padding-right: 1rem;
@@ -45,7 +55,6 @@
   .why-exist {
     width: 100%;
     padding: 0 1.5rem;
-
   }
   .why-exist-left-image {
     display: none;
@@ -53,9 +62,9 @@
   .why-exist-right-image {
     display: none;
   }
+  
   .why-exist .headline-container {
     width: 100%;
-    
     padding: 0 1.5rem;
   }
   .tab-mobile-gear{
@@ -65,7 +74,6 @@
     padding: 0 1.5rem;
     background-image: url('images/gear.png');
   }
-  
   .why-exist .paragraphs {
     display: flex;
     width: 100%;
