@@ -7,4 +7,4 @@ setInterval(function () {
   current = (current + 1) % quotes.length;
   quotes[current].classList.add("display");
   console.log("curr", quotes[current].innerHTML);
-}, 1000);
+}, 1500);
