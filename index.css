@@ -79,7 +79,7 @@ html {
 .why-exist p,
 .why p,
 .contact-us p{
-font-size: clamp(1rem, 4vw, 1.2rem );
+font-size: clamp(1rem, 2vw, 1.2rem );
 }
 
 /* NAVBAR BLOCK */
@@ -149,9 +149,6 @@ ul.dropdown-menu[data-bs-popper] {
   overflow-x: hidden;
   padding-top: 20vh;
 }
-.logo {
-  padding-bottom: 1rem;
-}
 
 /* scrolling quotation properties */
 .q-container {
@@ -183,8 +180,9 @@ ul.dropdown-menu[data-bs-popper] {
   display: block;
   text-align: center;
   margin: auto;
-  color: #00abec;
+  color: #b3e0f7;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 600;
   font-family: montserrat4 !important ;
 }
 
@@ -193,12 +191,12 @@ main {
 }
 
 .home-arc {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   background-color: #e2f4fd;
   position: absolute;
   right: 0;
-  top: calc(50% - 90px);
+  top: calc(62% - 90px);
   border-radius: 100% 0 0 0;
 }
 /* Override Bootstrap */
