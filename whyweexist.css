@@ -72,7 +72,7 @@
   
   .why-exist .paragraphs {
     display: flex;
-    width: 100vw;
+    width: 100%;
     padding: 0 1.5rem;
   }
   .why-exist .paragraphs .left-para {
