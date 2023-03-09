@@ -72,7 +72,8 @@
     height: 40vh;
     max-width: 100vw;
     padding: 0 1.5rem;
-    background-image: url('images/gear.png');
+    background-image: url('images/spikegear.gif');
+    background-size: cover;
   }
   .why-exist .paragraphs {
     display: flex;
