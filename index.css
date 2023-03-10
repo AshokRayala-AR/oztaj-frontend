@@ -59,7 +59,7 @@ html {
 .why-exist h1,
 .why h1 {
   font-size: clamp(3rem, 7vw, 4.5rem);
-  color: #039dda;
+  color: #10a8e6;
   font-family: montserrat2 !important ;
 }
 
@@ -205,7 +205,7 @@ main {
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #01abec !important;
+  color: #4dbce7 !important;
   background-color: transparent !important;
 }
 .dropdown-menu li {
@@ -216,15 +216,15 @@ main {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #01abec !important;
+  color: #10a8e6 !important;
 }
 
 .nav-item .nav-link.active::before {
-  background-color: #01abec !important;
+  background-color: #00abec !important;
 }
 .dropdown-item.active, .dropdown-item:active {
   background-color: transparent !important;
-  color: #01abec !important;
+  color: #10a8e6 !important;
 }
 
 /* media queries - Responsive */

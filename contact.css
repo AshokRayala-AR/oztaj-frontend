@@ -12,7 +12,7 @@
   width: 70%;
 }
 .contact-us-content .conversation-headline {
-  color: #abe1fa;
+  color: #72d0f0;
   width: 60%;
 }
 .conversation-headline {
@@ -32,7 +32,7 @@
   min-height: 230px;
   width: 25vh;
   height: 25vh;
-  background-color: #abe1fa;
+  background-color: #72d0f0;
   border-radius: 0 100% 0 0;
   color: #231f20;
 }
@@ -46,7 +46,7 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background-color: #e2f4fd;
+  background-color: #bfe5f7;
   left: -50px;
   bottom: -50px;
   border-radius: 0 0 0 100%;

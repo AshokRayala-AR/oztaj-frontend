@@ -29,7 +29,7 @@
 .why-exist-right-image .dark-blue-div{
   min-width: 25%;
   min-height:25%;
-  background-color: #60c5ec;
+  background-color: #10a8e6;
   position: absolute;
   top: 75%;
   border-radius: 0 100% 0 0;
@@ -37,9 +37,9 @@
 .why-exist h2::after {
   content: "we exist to simplify your complaince services process!";
   display: block;
-  color: #00abec;
+  color: #00bfff;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .paragraphs {
   display: flex;
