@@ -1,15 +1,15 @@
-var quotation = document.getElementById('quote-para');
-const firstQuote = 'We fuel your growth';
-const secondQuote = 'We help your business grow';
-const thirdQuote = 'Your partner in Tax and Accounting Compliance!';
+var quotation = document.getElementById("quote-para");
+const quotes = [
+  "We fuel your growth",
+  "We help your business grow",
+  "Your partner in Tax and Accounting Compliance!",
+];
 
 var typewriter = new Typewriter(quotation, {
   loop: true,
-  delay: 125,
-  strings : [firstQuote, secondQuote, thirdQuote],
+  delay: 15,
+  deleteSpeed: 15,
+  strings: quotes,
   autoStart: true,
-  pauseFor:
-  3000
+  pauseFor: 3000,
 });
-
- 
