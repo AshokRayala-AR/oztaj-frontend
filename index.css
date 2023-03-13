@@ -162,7 +162,7 @@ ul.dropdown-menu[data-bs-popper] {
 .quote_container {
   position:absolute;
   display: block;
-  visibility: hidden;
+  /* visibility: hidden; */
   margin: auto;
   min-width: 100%;
   overflow: hidden;
@@ -180,8 +180,11 @@ ul.dropdown-menu[data-bs-popper] {
   display: block;
   text-align: center;
   margin: auto;
-  color: #b3e0f7;
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: #10a8e6;
+  
+}
+.quote .quote-para span{
+  font-size: clamp(1rem, 4vw, 1.8rem);
   font-weight: 600;
   font-family: montserrat4 !important ;
 }
@@ -261,7 +264,7 @@ background-color: transparent;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .home-arc {
     display: none;
   }
