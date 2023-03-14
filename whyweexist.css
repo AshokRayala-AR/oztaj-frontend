@@ -51,6 +51,7 @@
 .paragraphs p {
   padding-top: 1rem;
 }
+
 @media screen and (max-width: 767px) {
   .why-exist {
     width: 100%;
@@ -65,7 +66,6 @@
   
   .why-exist .headline-container {
     width: 100%;
-    padding: 0 1.5rem;
   }
   .tab-mobile-gear{
     display: block;
@@ -78,7 +78,7 @@
   .why-exist .paragraphs {
     display: flex;
     width: 100%;
-    padding: 0 1.5rem;
+    
   }
   .why-exist .paragraphs .left-para {
     width: 100%;

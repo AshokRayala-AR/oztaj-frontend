@@ -147,7 +147,6 @@ ul.dropdown-menu[data-bs-popper] {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  /* padding-top: 20vh; */
 }
 
 /* scrolling quotation properties */
@@ -162,7 +161,7 @@ ul.dropdown-menu[data-bs-popper] {
 .quote_container {
   position:absolute;
   display: block;
-  /* visibility: hidden; */
+
   margin: auto;
   min-width: 100%;
   overflow: hidden;
@@ -194,12 +193,12 @@ main {
 }
 
 .home-arc {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   background-color: #e2f4fd;
   position: absolute;
   right: 0;
-  top: calc(50% - 90px);
+  top: calc(43vh - 90px);
   border-radius: 100% 0 0 0;
 }
 /* Override Bootstrap */
@@ -231,6 +230,12 @@ main {
 }
 
 /* media queries - Responsive */
+/* @media screen and (max-width: 867px){
+  .home-arc {
+    width: 80px;
+    height: 80px;
+  }
+} */
 
 @media screen and (max-width: 767px) {
   .container-fluid {
@@ -253,6 +258,11 @@ background-color: transparent;
   .quote .quote-para span{
     font-size: 2rem;
   }
+  .home-arc {
+    width: 110px;
+    height: 110px;
+    top: calc(50vh - 90px);
+  }
 }
 @media screen and (max-width: 530px) {
   .quote {
@@ -265,6 +275,7 @@ background-color: transparent;
     margin-right: 4em;
     margin-bottom: 3em;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
