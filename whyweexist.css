@@ -1,7 +1,7 @@
 .why-exist-container {
   display: flex;
   align-items: center;
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
 }
 .why-exist-content-wrapper {
   display: flex;
