@@ -46,7 +46,7 @@ body {
 }
 
 html {
-  scroll-behavior: smoth;
+  scroll-behavior:smooth;
 }
 
 .block {
@@ -147,7 +147,7 @@ ul.dropdown-menu[data-bs-popper] {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  padding-top: 20vh;
+  /* padding-top: 20vh; */
 }
 
 /* scrolling quotation properties */
