@@ -47,16 +47,16 @@ body {
 
 html {
   scroll-behavior:smooth;
+  scroll-padding-top:20vh;
 }
 .line-devider{
-  height: .5px;
+  height: .1px;
   background-color: #48c3f3;
-  box-shadow: .2px .2px .2px .2px;
+  box-shadow: .2px .2px .8px .2px;
 }
 .block {
-  min-height: 60vh;
+  min-height: 70vh;
   margin: 5vh 0;
-  /* border: 1px solid red; */
 }
 
 .about-us h1,
@@ -208,11 +208,12 @@ main {
   border-radius: 100% 0 0 0;
 }
 /* Override Bootstrap */
+
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus, .dropdown-item:hover{
   color: #4dbce7 !important;
   background-color: transparent !important;
 }
@@ -226,7 +227,6 @@ main {
 .navbar-light .navbar-nav .nav-link.active {
   color: #10a8e6 !important;
 }
-
 .nav-item .nav-link.active::before {
   background-color: #00abec !important;
 }
@@ -235,17 +235,8 @@ main {
   color: #10a8e6 !important;
 }
 
-/* media queries - Responsive */
-/* @media screen and (max-width: 867px){
-  .home-arc {
-    width: 80px;
-    height: 80px;
-  }
-} */
-
 @media screen and (max-width: 767px) {
   .navbar{
-    /* padding-bottom: 15vh; */
     background-color: white;
   }
   .container-fluid {
@@ -285,7 +276,6 @@ background-color: transparent;
     margin-right: 4em;
     margin-bottom: 3em;
   }
-  
 }
 
 @media screen and (max-width: 600px) {
