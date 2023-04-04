@@ -29,16 +29,20 @@ function preloadImage(img) {
 const imgOptions = {};
 
 const ImgObserver = new IntersectionObserver((entries, imgObserver) => {
-  entries.forEach(entry => {
-    if(!entry.isIntersecting) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
       return;
-    }else {
+    } else {
       preloadImage(entry.target);
       imgObserver.unobserve(entry.target);
     }
-  })
+  });
 }, imgOptions);
 
-images.forEach(image => {
+images.forEach((image) => {
   imgObserver.observe(image);
-})
+});
+
+// active nav-link script
+
+

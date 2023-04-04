@@ -84,7 +84,8 @@ html {
 .who-r-v p,
 .why-exist p,
 .why p,
-.contact-us p{
+.contact-us p,
+.privacy-security p{
 font-size: clamp(1rem, 2vw, 1.2rem );
 }
 
@@ -101,7 +102,7 @@ font-size: clamp(1rem, 2vw, 1.2rem );
   z-index: 1000;
 }
 .container-fluid {
-  max-width: 78%;
+  max-width: 82%;
   height: 2rem;
   background-color: #f1f2f2;
   border-radius: 0 0 23px 23px;
@@ -130,9 +131,9 @@ align-items: center;
   background-color: rgb(90, 89, 89);
 }
 .dropdown .dropdown-menu {
-  background-color: #e6f2f8;
+  background-color: #bde6fd;
   border: none;
-  border-radius: 0 0 160px 0;
+  border-radius: 0 0 100px 0;
   max-width: 100%;
   overflow-x: hidden;
   font-family: montserrat6 !important ;
@@ -224,7 +225,7 @@ main {
   padding: 0.25rem 0.6rem !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
+.nav-item .nav-link.active {
   color: #10a8e6 !important;
 }
 .nav-item .nav-link.active::before {

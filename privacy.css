@@ -1,8 +1,8 @@
 .privacy-security {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 15vh; */
 }
 .security-image-container {
   position: relative;
@@ -13,29 +13,15 @@
   
   background-size: cover;
 }
+.privacy-security p{
+width: 80vw;
+padding-top: 1.5rem;
+}
 .security-img {
   max-width: 100%;
   padding: 0 1.5rem;
 }
-/* .security-image-container .upper-circle {
-  width: 350px;
-  height: 350px;
-  border-radius: 100% 0;
-  position: absolute;
-top: -90;
-right: 140;
-  transform: rotate(60deg);
-} */
-/* .security-image-container .low-circle {
-  width: 950px;
-  height: 550px;
-  border-radius:0 100%;
-  border-top: 40px solid white;
-  position: absolute;
-  right: -190;
-  bottom: -200;
-  transform: rotate(20deg);
-} */
+
 @media screen and (max-width: 767px) {
   .security-image-container {
     max-width: 98vw;

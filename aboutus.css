@@ -2,7 +2,7 @@
   display: flex;
   display: flex;
   align-items: center;
-  overflow-x:hidden ;
+  overflow-x: hidden;
   /* margin-top: 10vh; */
 }
 .about-us .left-image {
@@ -13,14 +13,17 @@
   flex-direction: column;
   width: 70%;
 }
-
+.about-us ul li {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  line-height: 2.3rem;
+}
 .about-img-container {
   width: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
-.about-span{
+.about-span {
   width: 50%;
 }
 .about {
@@ -38,7 +41,7 @@
   position: relative;
   width: 50%;
 }
-.about-img-container{
+.about-img-container {
   width: 100%;
   justify-content: space-between;
 }
@@ -46,10 +49,10 @@
   width: 60%;
   border-radius: 100%;
 }
-.nested-img-div{
-  min-height:100% ;
+.nested-img-div {
+  min-height: 100%;
 }
-.nested-img-div img{
+.nested-img-div img {
   float: right;
 }
 .nested-img-div .thick-blue-img-div {
@@ -59,18 +62,17 @@
   background-color: #038cc2;
   position: absolute;
   top: 0;
-  left:70% ;
-  
+  left: 70%;
 }
 .nested-img-div .light-blue-img-div {
   width: 30%;
-  height:50% ;
+  height: 50%;
   border-radius: 0 0 100% 0;
   background-color: #00bfff;
   position: absolute;
   right: 0;
   bottom: 0;
-  left:70%;
+  left: 70%;
 }
 .about-span::after {
   content: "Oztaj has been set up by Mandeep Manchanda";
@@ -104,7 +106,7 @@
   }
   .nested-img-div .thick-blue-img-div {
     width: 25%;
-    height: 50% ;
+    height: 50%;
     border-radius: 0 100% 0 0;
     background-color: #00abec;
     position: absolute;
@@ -113,7 +115,7 @@
   }
   .nested-img-div .light-blue-img-div {
     width: 25%;
-    height:50% ;
+    height: 50%;
     border-radius: 0 0 100% 0;
     background-color: #00bfff;
     position: absolute;
@@ -121,7 +123,6 @@
     bottom: 0;
     left: 75%;
   }
-
 }
 @media screen and (max-width: 610px) {
   .about-us-content {
@@ -143,18 +144,17 @@
   }
   .nested-img-div .thick-blue-img-div {
     width: 30%;
-    height: 50% ;
+    height: 50%;
     border-radius: 0 100% 0 0;
     background-color: #00abec;
     position: absolute;
     top: 0;
     left: 60%;
     margin-left: 2rem;
-    
   }
   .nested-img-div .light-blue-img-div {
     width: 30%;
-    height:50% ;
+    height: 50%;
     border-radius: 0 0 100% 0;
     background-color: #abe1fa;
     position: absolute;
@@ -168,7 +168,7 @@
   .nested-img-div .light-blue-img-div {
     left: 55%;
   }
-  .nested-img-div .thick-blue-img-div{
+  .nested-img-div .thick-blue-img-div {
     left: 55%;
   }
 }
