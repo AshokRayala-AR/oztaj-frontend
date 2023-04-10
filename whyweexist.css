@@ -1,6 +1,6 @@
 .why-exist-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   /* margin-top: 20vh; */
 }
 .why-exist-content-wrapper {
@@ -51,7 +51,12 @@
 .paragraphs p {
   padding-top: 1rem;
 }
-
+.why-exist ul li {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  line-height: 2.3rem;
+  color:#00bfff;
+  padding-top: 1em;
+}
 @media screen and (max-width: 767px) {
   .why-exist {
     width: 100%;

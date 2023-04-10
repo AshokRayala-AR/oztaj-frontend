@@ -10,12 +10,12 @@
   height: 60vh;
   margin: auto;
   background-image: url("images/privacy.jpg");
-  
+
   background-size: cover;
 }
-.privacy-security p{
-width: 80vw;
-padding-top: 1.5rem;
+.privacy-security p {
+  width: 80vw;
+  padding-top: 1.5rem;
 }
 .security-img {
   max-width: 100%;

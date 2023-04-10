@@ -1,0 +1,21 @@
+.fee-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.fee-model ul li {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    line-height: 2.3rem;
+    color:#00bfff;
+  }
+.fee-model{
+    width: 55%;
+}
+.fee-image{
+    width: 30%;
+}
+.fee-image img{
+width: 25vw;
+height: 25vw;
+border-radius: 100%;
+}

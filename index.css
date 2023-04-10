@@ -63,7 +63,11 @@ html {
 .services h1,
 .who-r-v h1,
 .why-exist h1,
-.why h1 {
+.why h1,
+.how-we-do h1,
+.system-processes h1,
+.fee-model h1,
+.privacy-security h1 {
   font-size: clamp(3rem, 7vw, 4.5rem);
   color: #10a8e6;
   font-family: montserrat2 !important ;
@@ -71,7 +75,9 @@ html {
 
 .about-us h2,
 .services h2,
+.how-we-do h2,
 .who-r-v h2,
+.fee-model h2,
 .why-exist h2 {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
   font-weight: 100;
@@ -85,7 +91,10 @@ html {
 .why-exist p,
 .why p,
 .contact-us p,
-.privacy-security p{
+.privacy-security p,
+.how-we-do p,
+.fee-model p,
+.system-processes p{
 font-size: clamp(1rem, 2vw, 1.2rem );
 }
 

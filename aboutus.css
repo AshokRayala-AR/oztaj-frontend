@@ -6,12 +6,12 @@
   /* margin-top: 10vh; */
 }
 .about-us .left-image {
-  width: 15%;
+  width: 10%;
 }
 .about-us-content {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
 }
 .about-us ul li {
   font-size: clamp(1.1rem, 2vw, 1.3rem);

@@ -1,0 +1,22 @@
+.how-we-do-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.how-we-do {
+    width: 55%;
+    margin-left: 10%;
+}
+.how-we-do ul li {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    line-height: 2.3rem;
+    color:#00bfff;
+  }
+  .we-do-image{
+    width: 25%;
+  }
+  .we-do-image img{
+    max-width: 25vw;
+    max-height: 25vw;
+    border-radius: 50% 50% 0 0;
+  }

@@ -1,72 +1,78 @@
 .who-r-v {
-    display: flex;
-    align-items: center;
-    /* padding-top: 20vh; */
-  }
+  display: flex;
+  align-items: center;
+  /* padding-top: 20vh; */
+}
+.who-r-v .content-wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  width: 100%;
+  margin-left: 10%;
+}
+.content-wrapper .paras-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.who-r-v .left-content {
+  width: 35%;
+}
+.who-r-v .blue-paragraph {
+  padding: 1em 1em 0 0;
+  color: #00bfff;
+}
+.who-r-v ul li {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  line-height: 2.3rem;
+  padding: 1em 1em 0 0;
+  color: #00bfff;
+}
+.who-r-v .right-content {
+  width: 50%;
+  padding: 1em 1em 0 0;
+}
+.right-img .image-one img{
+width: 26vw;
+height: 15vw;
+border-radius: 0 0 50% 50%;
+}
+.color-block{
+  width: 26vw;
+  height: 15vw;
+  border-radius:  50% 50% 0 0;
+  background-color: #7ad0ec;
+}
+
+@media screen and (max-width: 767px) {
   .who-r-v .content-wrapper {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    margin-left: 15%;
-    
+    margin: 0;
+    padding: 0 1.5rem;
   }
-  .content-wrapper .paras-container{
-    display: flex;
-    align-items: flex-start;
-    width: 80%;
+  .paras-container .left-content {
+    width: 30%;
   }
-  .who-r-v .left-content {
-    width: 33%;
-    
-  }
-  .who-r-v .blue-paragraph{
-    padding:1em 1em 0 0;
-    color: #00bfff;
-  }
-  .who-r-v ul li {
-    font-size: clamp(1.1rem, 2vw, 1.3rem);
-    line-height: 2.3rem;
-    padding:1em 1em 0 0;
-    color: #00bfff;
-  }
-  .who-r-v .right-content {
-    width: 64%;
-    padding:1em 1em 0 0;
-    
+  .paras-container .right-content {
+    width: 70%;
   }
 
-  @media screen and (max-width: 767px) {
-    .who-r-v .content-wrapper{
+  @media screen and (max-width: 610px) {
+    .who-r-v .content-wrapper {
+      display: block;
       width: 100%;
       margin: 0;
       padding: 0 1.5rem;
-
     }
-    .paras-container .left-content{
-      width: 30%;
+    .content-wrapper .paras-container {
+      display: flex;
+      flex-direction: column;
     }
-    .paras-container .right-content{
-      width: 70%;
+    .paras-container .left-content {
+      width: 100%;
     }
-
-    @media screen and (max-width: 610px){
-      .who-r-v .content-wrapper{
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 0 1.5rem;
-      }
-      .content-wrapper .paras-container{
-        display: flex;
-        flex-direction: column;
-      }
-      .paras-container .left-content{ 
-        width: 100%;
-      }
-      .paras-container .right-content{
-        width: 100%;
-      }
+    .paras-container .right-content {
+      width: 100%;
     }
-
   }
-  
+}
