@@ -45,4 +45,9 @@ images.forEach((image) => {
 
 // active nav-link script
 
+let navItem = document.getElementsByClassName("color");
+navItem.addEventListener("click",function(){
+  navItem.classList.toggle("navitem-color");
+});
+  
 
