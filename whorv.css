@@ -1,21 +1,27 @@
-.who-r-v {
+.who-r-v{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  /* padding-top: 20vh; */
 }
-.who-r-v .content-wrapper {
+.who-r-v .content-wrapper{
   display: flex;
-  /* flex-direction: column; */
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
   margin-left: 10%;
 }
-.content-wrapper .paras-container {
+.are-v::after {
+  content: "You are about to know";
+  display: block;
+  color: #00bfff;
+  font-size: small;
+  font-weight: 100;
+}
+.who-r-v .content-wrapper .paras-container {
   display: flex;
   align-items: flex-start;
   width: 100%;
 }
-.who-r-v .left-content {
+.who-r-v .left-content{
   width: 35%;
 }
 .who-r-v .blue-paragraph {
@@ -24,40 +30,29 @@
 }
 .who-r-v ul li {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
-  line-height: 2.3rem;
-  padding: 1em 1em 0 0;
+  line-height: 2rem;
   color: #00bfff;
 }
-.who-r-v .right-content {
+.who-r-v .right-content{
   width: 50%;
-  padding: 1em 1em 0 0;
+  padding: 2.2em 0 0 2em ;
 }
 .right-img .image-one img{
-width: 26vw;
+width: 25vw;
 height: 15vw;
 border-radius: 0 0 50% 50%;
 }
 .color-block{
-  width: 26vw;
+  width: 25vw;
   height: 15vw;
   border-radius:  50% 50% 0 0;
   background-color: #7ad0ec;
 }
+.image-tab{
+  display: none;
+}
 
-@media screen and (max-width: 767px) {
-  .who-r-v .content-wrapper {
-    width: 100%;
-    margin: 0;
-    padding: 0 1.5rem;
-  }
-  .paras-container .left-content {
-    width: 30%;
-  }
-  .paras-container .right-content {
-    width: 70%;
-  }
-
-  @media screen and (max-width: 610px) {
+  @media screen and (max-width: 910px) {
     .who-r-v .content-wrapper {
       display: block;
       width: 100%;
@@ -74,5 +69,19 @@ border-radius: 0 0 50% 50%;
     .paras-container .right-content {
       width: 100%;
     }
+    .who-r-v .right-content{
+      padding:1.5em 0 0 0;
+    }
+    .right-img{
+      display: none;
+    }
+    .image-tab{
+      display: block;
+      width: 100%;
   }
-}
+  .image-tab img{
+    width: 100%;
+      height: 50vw;
+  }
+  }
+

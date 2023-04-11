@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   overflow-x: hidden;
-  /* margin-top: 10vh; */
 }
 .about-us .left-image {
   width: 10%;
@@ -15,7 +14,8 @@
 }
 .about-us ul li {
   font-size: clamp(1.1rem, 2vw, 1.3rem);
-  line-height: 2.3rem;
+  line-height: 2rem;
+  
 }
 .about-img-container {
   width: 100%;
@@ -78,6 +78,8 @@
   content: "Oztaj has been set up by Mandeep Manchanda";
   display: block;
   color: #00bfff;
+  font-size: small;
+  font-weight: 200;
 }
 .paragraph-container {
   display: flex;
@@ -86,13 +88,14 @@
 }
 .about-left {
   width: 30%;
-  padding-right: 1em;
+  padding-top: 1em;
   color: #00bfff;
 }
 .about-right {
   width: 75%;
+  padding: 2em 0 0 2em;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 910px) {
   .about-us .left-image {
     display: none;
   }
@@ -123,11 +126,6 @@
     bottom: 0;
     left: 75%;
   }
-}
-@media screen and (max-width: 610px) {
-  .about-us-content {
-    width: 100%;
-  }
   .paragraph-container {
     flex-direction: column;
   }
@@ -136,39 +134,15 @@
   }
   .about-right {
     width: 100%;
-  }
-  .about-img-container img {
-    width: 60%;
-    border-radius: 100%;
-    margin-left: 2rem;
-  }
-  .nested-img-div .thick-blue-img-div {
-    width: 30%;
-    height: 50%;
-    border-radius: 0 100% 0 0;
-    background-color: #00abec;
-    position: absolute;
-    top: 0;
-    left: 60%;
-    margin-left: 2rem;
-  }
-  .nested-img-div .light-blue-img-div {
-    width: 30%;
-    height: 50%;
-    border-radius: 0 0 100% 0;
-    background-color: #abe1fa;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 60%;
-    margin-left: 2rem;
+    padding: 0;
   }
 }
+
 @media screen and (max-width: 440px) {
   .nested-img-div .light-blue-img-div {
-    left: 55%;
+    left: 75%;
   }
   .nested-img-div .thick-blue-img-div {
-    left: 55%;
+    left: 75%;
   }
 }

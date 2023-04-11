@@ -1,7 +1,27 @@
 .system-processes{
     margin-left: 10%;
+    width: 90%;
 }
-.system-processes img{
+.system-processes p{
+    width: 91%;
+}
+
+.system-image img{
 width: 90%;
 height: 30vw;
+}
+
+@media screen and (max-width: 910px){
+    .system-image img{
+        max-height: 50vh;
+        width: 100%;
+    }
+    .system-processes{
+        width: 100%;
+        margin: 0;
+        padding: 0 1.5rem;
+      }
+      .system-processes p{
+        width: 100%;
+    }
 }

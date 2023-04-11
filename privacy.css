@@ -3,23 +3,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 10%;
 }
 .security-image-container {
-  position: relative;
   width: 80vw;
   height: 60vh;
-  margin: auto;
   background-image: url("images/privacy.jpg");
-
   background-size: cover;
 }
 .privacy-security p {
-  width: 80vw;
   padding-top: 1.5rem;
+  width: 91%;
 }
 .security-img {
-  max-width: 100%;
-  padding: 0 1.5rem;
+  text-align: center;
+  width: 90%;
+height: 30vw;
+/* margin-right: 10%; */
 }
 
 @media screen and (max-width: 767px) {
