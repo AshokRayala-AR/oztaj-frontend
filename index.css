@@ -234,16 +234,23 @@ main {
   padding: 0.25rem 0.6rem !important;
 }
 
-.nav-item .nav-link.active {
+/* .nav-item .nav-link.active {
   color: #10a8e6 !important;
-}
-.nav-item .nav-link.active::before {
+} */
+/* .nav-item .nav-link.active::before {
   background-color: #00abec !important;
-}
-.dropdown-item.active, .dropdown-item:active {
+} */
+/* .dropdown-item.active, .dropdown-item:active {
   background-color: transparent !important;
   color: #10a8e6 !important;
+} */
+ .color {
+  color:  #10a8e6 !important; 
 }
+.normal{
+  color:#646464;
+}
+
 
 @media screen and (max-width: 767px) {
   .navbar{
@@ -296,6 +303,9 @@ background-color: transparent;
     font-size: 1.5rem;
   }
 }
-.navitem-color {
-  color:  #10a8e6; 
+.normal{
+  color: green;
+}
+.color{
+  color: red;
 }

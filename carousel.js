@@ -34,20 +34,61 @@ const ImgObserver = new IntersectionObserver((entries, imgObserver) => {
       return;
     } else {
       preloadImage(entry.target);
-      imgObserver.unobserve(entry.target);
+      ImgObserver.unobserve(entry.target);
     }
   });
 }, imgOptions);
 
 images.forEach((image) => {
-  imgObserver.observe(image);
+  ImgObserver.observe(image);
 });
 
-// active nav-link script
-
-let navItem = document.getElementsByClassName("color");
-navItem.addEventListener("click",function(){
-  navItem.classList.toggle("navitem-color");
-});
+const navLink = document.querySelectorAll(".normal");
+for (let i = 0; i < navLink.length; i++) {
   
-
+  if (i === 0) {
+      navLink[i].addEventListener("click", function () {
+      navLink[0].classList.add("color");
+      navLink[1].classList.remove("color");
+      navLink[2].classList.remove("color");
+      navLink[3].classList.remove("color");
+      navLink[4].classList.remove("color");
+    });
+  }
+  else if (i === 1) {
+    navLink[i].addEventListener("click", function () {
+      navLink[0].classList.remove("color");
+      navLink[1].classList.add("color");
+      navLink[2].classList.remove("color");
+      navLink[3].classList.remove("color");
+      navLink[4].classList.remove("color");
+    });
+  }
+  else if (i === 2) {
+    navLink[i].addEventListener("click", function () {
+      navLink[0].classList.remove("color");
+      navLink[1].classList.remove("color");
+      navLink[2].classList.add("color");
+      navLink[3].classList.remove("color");
+      navLink[4].classList.remove("color");
+    });
+  }
+  else if (i === 3) {
+    navLink[i].addEventListener("click", function () {
+      navLink[0].classList.remove("color");
+      navLink[1].classList.remove("color");
+      navLink[2].classList.remove("color");
+      navLink[3].classList.add("color");
+      navLink[4].classList.remove("color");
+    });
+  }
+  else if (i === 4) {
+    navLink[i].addEventListener("click", function () {
+      navLink[0].classList.remove("color");
+      navLink[1].classList.remove("color");
+      navLink[2].classList.remove("color");
+      navLink[3].classList.remove("color");
+      navLink[4].classList.add("color");
+    });
+  }
+}
